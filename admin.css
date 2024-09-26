@@ -1,0 +1,96 @@
+body {
+  background-color: #F8F9FA;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-mobile {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.voltar {
+  font-size: 22px;
+  color: #555;
+  text-decoration: none;
+}
+
+.titulo {
+  font-size: 18px;
+  color: #555;
+  margin: 0;
+  display: inline-block;
+}
+
+.mensagem {
+  font-size: 18px;
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.admin-icon {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.btn-warning {
+  background-color: #FFD700;
+  border-color: #FFD700;
+  color: white;
+}
+
+.row {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.menu {
+    display: none;
+    margin-top: 20px;
+}
+
+.menu-item {
+    background-color: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.menu-item p {
+    margin: 5px 0 0;
+    font-size: 1em;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

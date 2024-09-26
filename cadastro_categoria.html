@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Cadastro de Categoria</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img src="img/logorangotime.png" alt="Logo Rango"/>
+                </div>
+            </div>
+            <div class="col-md-12 text-center texto">Cadastro de Categoria:</div>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-md-8 justify-content-center">
+                <form action="cadastrarProduto.php" method="post" class="form-control">
+                    <label for="NomeCategoria">Nome categoria:</label><br>
+                    <input type="text" class="form-control" id="NomeProduto" name="NomeProduto" placeholder="Cadastre seu produto:"><br>
+                    <label for="ImagemCategoria">Imagem:</label><br>
+                    <input type="file" class="form-control" id="ImagemProduto" name="ImagemProduto"><br>
+                    <label for="DescricaoProduto">Descrição da categoria:</label><br>
+                    <textarea name="DescricaoProduto" class="form-control" id="DescricaoProduto" rows="3" cols="80"></textarea><br>
+                    <div class="col-md-3 text-center centraliza">
+                    <input type="submit"  value="CADASTRAR" class="botao form-control"><br>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

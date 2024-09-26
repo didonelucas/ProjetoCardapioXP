@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Acesse sua Conta</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img src="img/logorangotime.png" alt="Logo Rango"/>
+                </div>
+            </div>
+            <div class="col-md-12 text-center texto">Acesse sua Conta:</div>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-md-8 justify-content-center">
+                <form action="acessarConta.php" method="post" class="form-control">
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu e-mail" required><br>
+                    <label for="senha">Senha:</label><br>
+                    <input type="password" class="form-control" id="senha" name="senha" placeholder="Digite sua senha" required><br>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="lgpd">
+                      <label class="form-check-label" for="lgpd">A Lei Geral de Proteção de Dados (LGPD) é uma legislação que visa garantir a privacidade e segurança dos dados pessoais dos usuários.</label>
+                  </div>
+                    <div class="col-md-3 text-center centraliza">
+                        <a href="pagina_inicial.html"><input type="submit" value="Acessar" class="botao form-control"></a><br>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
