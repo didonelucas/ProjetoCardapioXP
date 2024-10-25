@@ -9,7 +9,7 @@ var fase = 1;
     document.addEventListener('keydown', function(event) {
     const keyName = event.key;
 
-    if (keyName === 'j') {
+    if (keyName === '5') {
         if (fase === 1) {
             beatPedido.play(); 
         } else if (fase === 2) {
@@ -21,7 +21,7 @@ var fase = 1;
         } else if (fase === 5) {
             beatTudo.play(); 
         }
-    } else if (keyName === 'g') {
+    } else if (keyName === '3') {
         if (fase === 1) {
             beatBurguer.play(); 
             fase = 2;
@@ -35,7 +35,7 @@ var fase = 1;
             beatTudo.play();
             fase = 5;
         }
-    } else if (keyName === 'a') {
+    } else if (keyName === '1') {
         if (fase === 2 || fase === 3 || fase === 4 || fase === 5) {
             beatConfirmacao.play(); 
             fase++;
